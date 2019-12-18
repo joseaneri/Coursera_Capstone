@@ -1,0 +1,3892 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_b7261a9e590e49779392da3292bdb78c {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b7261a9e590e49779392da3292bdb78c" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_b7261a9e590e49779392da3292bdb78c = L.map(
+                                  'map_b7261a9e590e49779392da3292bdb78c',
+                                  {center: [23.6345005,-102.5527878],
+                                  zoom: 5,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_bf1e7c9111e9413aa1b1e14f1ee7f12d = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+        
+    
+            var circle_marker_dec75e3e70694e6b967c0d9d313f7ca4 = L.circleMarker(
+                [21.8806553,-102.2961323],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_ccc103dc4a04482795051f0d47aed2f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c1af0c433b04865984fb09d10747286 = $('<div id="html_5c1af0c433b04865984fb09d10747286" style="width: 100.0%; height: 100.0%;">Aguascalientes, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_ccc103dc4a04482795051f0d47aed2f6.setContent(html_5c1af0c433b04865984fb09d10747286);
+            
+
+            circle_marker_dec75e3e70694e6b967c0d9d313f7ca4.bindPopup(popup_ccc103dc4a04482795051f0d47aed2f6);
+
+            
+        
+    
+            var circle_marker_23584ba62ba348548a7ad0286ea4f680 = L.circleMarker(
+                [31.860742,-116.6248246],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_242e5675ce0d484993e706dbd8014cc2 = L.popup({maxWidth: '300'});
+
+            
+                var html_2f72b511346d40beab23d7b3cc40052a = $('<div id="html_2f72b511346d40beab23d7b3cc40052a" style="width: 100.0%; height: 100.0%;">Ensenada, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_242e5675ce0d484993e706dbd8014cc2.setContent(html_2f72b511346d40beab23d7b3cc40052a);
+            
+
+            circle_marker_23584ba62ba348548a7ad0286ea4f680.bindPopup(popup_242e5675ce0d484993e706dbd8014cc2);
+
+            
+        
+    
+            var circle_marker_c709144eb9c94fcfb0e5519564d293a6 = L.circleMarker(
+                [32.6248622,-115.448325],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_ed54beef012644ae8f0305c53b2b0bef = L.popup({maxWidth: '300'});
+
+            
+                var html_3f55eff01028440184df65eb6c3197d2 = $('<div id="html_3f55eff01028440184df65eb6c3197d2" style="width: 100.0%; height: 100.0%;">Mexicali, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_ed54beef012644ae8f0305c53b2b0bef.setContent(html_3f55eff01028440184df65eb6c3197d2);
+            
+
+            circle_marker_c709144eb9c94fcfb0e5519564d293a6.bindPopup(popup_ed54beef012644ae8f0305c53b2b0bef);
+
+            
+        
+    
+            var circle_marker_8d9a1d8312804ab08373c9bcc8fa5e35 = L.circleMarker(
+                [32.5010188,-116.9646629],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_7692537c14e144e6948018a51f3f128c = L.popup({maxWidth: '300'});
+
+            
+                var html_50b6afcf83a746008c0a746760d48e92 = $('<div id="html_50b6afcf83a746008c0a746760d48e92" style="width: 100.0%; height: 100.0%;">Tijuana, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_7692537c14e144e6948018a51f3f128c.setContent(html_50b6afcf83a746008c0a746760d48e92);
+            
+
+            circle_marker_8d9a1d8312804ab08373c9bcc8fa5e35.bindPopup(popup_7692537c14e144e6948018a51f3f128c);
+
+            
+        
+    
+            var circle_marker_60bc5a15e3684290ae1ff9ded656c8a8 = L.circleMarker(
+                [24.1422841,-110.3126162],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_e72625e94f504c7e9fd1b7e3d2e6bf58 = L.popup({maxWidth: '300'});
+
+            
+                var html_0134daeac4db4cd3ab9b04212692d4b6 = $('<div id="html_0134daeac4db4cd3ab9b04212692d4b6" style="width: 100.0%; height: 100.0%;">La Paz, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_e72625e94f504c7e9fd1b7e3d2e6bf58.setContent(html_0134daeac4db4cd3ab9b04212692d4b6);
+            
+
+            circle_marker_60bc5a15e3684290ae1ff9ded656c8a8.bindPopup(popup_e72625e94f504c7e9fd1b7e3d2e6bf58);
+
+            
+        
+    
+            var circle_marker_93d6503ef3ea41aa820a6295b7f7a23a = L.circleMarker(
+                [18.1449648,-91.0294971],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_555f2bfa11fe487480dcf98ad6fd043c = L.popup({maxWidth: '300'});
+
+            
+                var html_8a4cda7a29b645d5a62b5818543cc86c = $('<div id="html_8a4cda7a29b645d5a62b5818543cc86c" style="width: 100.0%; height: 100.0%;">Campeche, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_555f2bfa11fe487480dcf98ad6fd043c.setContent(html_8a4cda7a29b645d5a62b5818543cc86c);
+            
+
+            circle_marker_93d6503ef3ea41aa820a6295b7f7a23a.bindPopup(popup_555f2bfa11fe487480dcf98ad6fd043c);
+
+            
+        
+    
+            var circle_marker_2c4bd28fbf924f2c8e81dc8ee2ae9345 = L.circleMarker(
+                [18.4525195,-91.4129738779021],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_dc72ee34ad3c4a41ab5ea3a1f649ca95 = L.popup({maxWidth: '300'});
+
+            
+                var html_290047d1e0fe473d9737907bf21e2337 = $('<div id="html_290047d1e0fe473d9737907bf21e2337" style="width: 100.0%; height: 100.0%;">Carmen, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_dc72ee34ad3c4a41ab5ea3a1f649ca95.setContent(html_290047d1e0fe473d9737907bf21e2337);
+            
+
+            circle_marker_2c4bd28fbf924f2c8e81dc8ee2ae9345.bindPopup(popup_dc72ee34ad3c4a41ab5ea3a1f649ca95);
+
+            
+        
+    
+            var circle_marker_8060abb1d7c745e5b6d1da44c6641e7a = L.circleMarker(
+                [29.425095,-101.935371812865],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_867d01e54639472b953095528a4f3097 = L.popup({maxWidth: '300'});
+
+            
+                var html_dd38b90a63544d30a0491b523718936d = $('<div id="html_dd38b90a63544d30a0491b523718936d" style="width: 100.0%; height: 100.0%;">Acuña, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_867d01e54639472b953095528a4f3097.setContent(html_dd38b90a63544d30a0491b523718936d);
+            
+
+            circle_marker_8060abb1d7c745e5b6d1da44c6641e7a.bindPopup(popup_867d01e54639472b953095528a4f3097);
+
+            
+        
+    
+            var circle_marker_bbc42c679b4a41eca0cd938e24646ef9 = L.circleMarker(
+                [26.8999988,-101.4171173],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_86a0a3ead7f440fa9b4b064c775e8f21 = L.popup({maxWidth: '300'});
+
+            
+                var html_129f72b8807f4a5fb9b89b5d6ea36cf9 = $('<div id="html_129f72b8807f4a5fb9b89b5d6ea36cf9" style="width: 100.0%; height: 100.0%;">Monclova, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_86a0a3ead7f440fa9b4b064c775e8f21.setContent(html_129f72b8807f4a5fb9b89b5d6ea36cf9);
+            
+
+            circle_marker_bbc42c679b4a41eca0cd938e24646ef9.bindPopup(popup_86a0a3ead7f440fa9b4b064c775e8f21);
+
+            
+        
+    
+            var circle_marker_4604bed1298a467a88bd13a15f597f76 = L.circleMarker(
+                [28.7019602,-100.5219222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_d15a757d94a245c98c450461af198c52 = L.popup({maxWidth: '300'});
+
+            
+                var html_955a063534b54041ba1e24e32601bedc = $('<div id="html_955a063534b54041ba1e24e32601bedc" style="width: 100.0%; height: 100.0%;">Piedras Negras, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_d15a757d94a245c98c450461af198c52.setContent(html_955a063534b54041ba1e24e32601bedc);
+            
+
+            circle_marker_4604bed1298a467a88bd13a15f597f76.bindPopup(popup_d15a757d94a245c98c450461af198c52);
+
+            
+        
+    
+            var circle_marker_5d736d2355e2427ab209d6adb48c0385 = L.circleMarker(
+                [25.4230425,-100.9927509],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_b1b463eebe594730be940d28c627693b = L.popup({maxWidth: '300'});
+
+            
+                var html_b3b8f536481f45c5976fd0e4436d5580 = $('<div id="html_b3b8f536481f45c5976fd0e4436d5580" style="width: 100.0%; height: 100.0%;">Saltillo, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_b1b463eebe594730be940d28c627693b.setContent(html_b3b8f536481f45c5976fd0e4436d5580);
+            
+
+            circle_marker_5d736d2355e2427ab209d6adb48c0385.bindPopup(popup_b1b463eebe594730be940d28c627693b);
+
+            
+        
+    
+            var circle_marker_0583546014a64675a5f8ef8bda6e3b2e = L.circleMarker(
+                [25.542698,-103.4105122],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_ef26c83ed4394e898b3042b6e551ce38 = L.popup({maxWidth: '300'});
+
+            
+                var html_059fe474b235426fa49342b35319cdca = $('<div id="html_059fe474b235426fa49342b35319cdca" style="width: 100.0%; height: 100.0%;">Torreón, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_ef26c83ed4394e898b3042b6e551ce38.setContent(html_059fe474b235426fa49342b35319cdca);
+            
+
+            circle_marker_0583546014a64675a5f8ef8bda6e3b2e.bindPopup(popup_ef26c83ed4394e898b3042b6e551ce38);
+
+            
+        
+    
+            var circle_marker_0d8a76bd179e48db8ccaf3f859e4ac46 = L.circleMarker(
+                [19.2451909,-103.720828],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_1b744449b7874564be23b0945b493d4c = L.popup({maxWidth: '300'});
+
+            
+                var html_1260396dad614d01b17ae25e73be56c8 = $('<div id="html_1260396dad614d01b17ae25e73be56c8" style="width: 100.0%; height: 100.0%;">Colima, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_1b744449b7874564be23b0945b493d4c.setContent(html_1260396dad614d01b17ae25e73be56c8);
+            
+
+            circle_marker_0d8a76bd179e48db8ccaf3f859e4ac46.bindPopup(popup_1b744449b7874564be23b0945b493d4c);
+
+            
+        
+    
+            var circle_marker_9164846739714371b2246653fea1d68d = L.circleMarker(
+                [19.12765695,-104.284125630077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_294b2963839344b0bdeab3b71688f882 = L.popup({maxWidth: '300'});
+
+            
+                var html_ec94c50e70364aaf83654e59cfd05952 = $('<div id="html_ec94c50e70364aaf83654e59cfd05952" style="width: 100.0%; height: 100.0%;">Manzanillo, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_294b2963839344b0bdeab3b71688f882.setContent(html_ec94c50e70364aaf83654e59cfd05952);
+            
+
+            circle_marker_9164846739714371b2246653fea1d68d.bindPopup(popup_294b2963839344b0bdeab3b71688f882);
+
+            
+        
+    
+            var circle_marker_a51bb6c5d0744ec2a99eac32c2a20f0e = L.circleMarker(
+                [19.2651417,-103.736013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_0c1a66f88fde4f099e44471f3696b57e = L.popup({maxWidth: '300'});
+
+            
+                var html_a38fedd72dd741d2be1d7cdbd746a823 = $('<div id="html_a38fedd72dd741d2be1d7cdbd746a823" style="width: 100.0%; height: 100.0%;">Villa de Álvarez, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_0c1a66f88fde4f099e44471f3696b57e.setContent(html_a38fedd72dd741d2be1d7cdbd746a823);
+            
+
+            circle_marker_a51bb6c5d0744ec2a99eac32c2a20f0e.bindPopup(popup_0c1a66f88fde4f099e44471f3696b57e);
+
+            
+        
+    
+            var circle_marker_b3d89d3e558f473a99d31c508812e626 = L.circleMarker(
+                [16.6835469,-92.6155184199116],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_d1a4f65ff14443c5a458bf818b4718e2 = L.popup({maxWidth: '300'});
+
+            
+                var html_cd664c0de7714ee09340b891c4a96eec = $('<div id="html_cd664c0de7714ee09340b891c4a96eec" style="width: 100.0%; height: 100.0%;">San Cristóbal de las Casas, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_d1a4f65ff14443c5a458bf818b4718e2.setContent(html_cd664c0de7714ee09340b891c4a96eec);
+            
+
+            circle_marker_b3d89d3e558f473a99d31c508812e626.bindPopup(popup_d1a4f65ff14443c5a458bf818b4718e2);
+
+            
+        
+    
+            var circle_marker_7ce5515a17584217ab4444f7b526ef18 = L.circleMarker(
+                [14.92746,-92.3223122028301],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_3cd0d98c806c4ce49c8ff9ca635dbd70 = L.popup({maxWidth: '300'});
+
+            
+                var html_c32495e89b124994952193338469a543 = $('<div id="html_c32495e89b124994952193338469a543" style="width: 100.0%; height: 100.0%;">Tapachula, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_3cd0d98c806c4ce49c8ff9ca635dbd70.setContent(html_c32495e89b124994952193338469a543);
+            
+
+            circle_marker_7ce5515a17584217ab4444f7b526ef18.bindPopup(popup_3cd0d98c806c4ce49c8ff9ca635dbd70);
+
+            
+        
+    
+            var circle_marker_e6cd0dc4dcf14074a85561f271ff329e = L.circleMarker(
+                [15.98243615,-93.6970376729688],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_034d42f46b4b4a03aad8a599286941f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_00d4e4a980af46bab650a5a3967b8e25 = $('<div id="html_00d4e4a980af46bab650a5a3967b8e25" style="width: 100.0%; height: 100.0%;">Tonalá, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_034d42f46b4b4a03aad8a599286941f0.setContent(html_00d4e4a980af46bab650a5a3967b8e25);
+            
+
+            circle_marker_e6cd0dc4dcf14074a85561f271ff329e.bindPopup(popup_034d42f46b4b4a03aad8a599286941f0);
+
+            
+        
+    
+            var circle_marker_3083106c2c7a4042a5b9970e9298c7cf = L.circleMarker(
+                [16.753801,-93.115959],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_088e9b19b2c34106aec3bf35e5ada6cf = L.popup({maxWidth: '300'});
+
+            
+                var html_60a9fe456dd04239b3b3c272ac04ffe9 = $('<div id="html_60a9fe456dd04239b3b3c272ac04ffe9" style="width: 100.0%; height: 100.0%;">Tuxtla Gutiérrez, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_088e9b19b2c34106aec3bf35e5ada6cf.setContent(html_60a9fe456dd04239b3b3c272ac04ffe9);
+            
+
+            circle_marker_3083106c2c7a4042a5b9970e9298c7cf.bindPopup(popup_088e9b19b2c34106aec3bf35e5ada6cf);
+
+            
+        
+    
+            var circle_marker_a9e967b478db44dfa4b0bcdbd5106b7b = L.circleMarker(
+                [28.6523808,-106.0902046],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_6d34fcf468ae49eebd14a3714c166d46 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb70be04962d4d0f915d470972ce4265 = $('<div id="html_cb70be04962d4d0f915d470972ce4265" style="width: 100.0%; height: 100.0%;">Chihuahua, Cluster: 2, High Risk Factor Index</div>')[0];
+                popup_6d34fcf468ae49eebd14a3714c166d46.setContent(html_cb70be04962d4d0f915d470972ce4265);
+            
+
+            circle_marker_a9e967b478db44dfa4b0bcdbd5106b7b.bindPopup(popup_6d34fcf468ae49eebd14a3714c166d46);
+
+            
+        
+    
+            var circle_marker_d5a437ed0fdd440bb2f4077bc13c435d = L.circleMarker(
+                [28.1909814,-105.4694263],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_d766856e86e34423af795701e59df7ca = L.popup({maxWidth: '300'});
+
+            
+                var html_3bac50756dba4af586ce7ce260000993 = $('<div id="html_3bac50756dba4af586ce7ce260000993" style="width: 100.0%; height: 100.0%;">Delicias, Cluster: 2, High Risk Factor Index</div>')[0];
+                popup_d766856e86e34423af795701e59df7ca.setContent(html_3bac50756dba4af586ce7ce260000993);
+            
+
+            circle_marker_d5a437ed0fdd440bb2f4077bc13c435d.bindPopup(popup_d766856e86e34423af795701e59df7ca);
+
+            
+        
+    
+            var circle_marker_f4e57ee74b284434b0d032d30338c0d5 = L.circleMarker(
+                [31.45222745,-106.44972558551],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_4ed443b6ba574f349b866ebddde286bf = L.popup({maxWidth: '300'});
+
+            
+                var html_ce450080ce0c4ca58af5028ddc4130b9 = $('<div id="html_ce450080ce0c4ca58af5028ddc4130b9" style="width: 100.0%; height: 100.0%;">Juárez, Cluster: 2, High Risk Factor Index</div>')[0];
+                popup_4ed443b6ba574f349b866ebddde286bf.setContent(html_ce450080ce0c4ca58af5028ddc4130b9);
+            
+
+            circle_marker_f4e57ee74b284434b0d032d30338c0d5.bindPopup(popup_4ed443b6ba574f349b866ebddde286bf);
+
+            
+        
+    
+            var circle_marker_b6700a6729f345aa963bd50eb99cc1fe = L.circleMarker(
+                [19.4858148,-99.1842057302761],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_e6d9c8c7bf214bfa94379cb33e8ff58c = L.popup({maxWidth: '300'});
+
+            
+                var html_2826c2a8904b47ab8bd328da2843a887 = $('<div id="html_2826c2a8904b47ab8bd328da2843a887" style="width: 100.0%; height: 100.0%;">Azcapotzalco, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_e6d9c8c7bf214bfa94379cb33e8ff58c.setContent(html_2826c2a8904b47ab8bd328da2843a887);
+            
+
+            circle_marker_b6700a6729f345aa963bd50eb99cc1fe.bindPopup(popup_e6d9c8c7bf214bfa94379cb33e8ff58c);
+
+            
+        
+    
+            var circle_marker_7c3e6f9b45284f87a0726ba2283751c9 = L.circleMarker(
+                [19.32804005,-99.1510634069359],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_fcbab3b427d24582986a8ea0d759b773 = L.popup({maxWidth: '300'});
+
+            
+                var html_f10b9242d36c41a3b2eb6ce3854ab94d = $('<div id="html_f10b9242d36c41a3b2eb6ce3854ab94d" style="width: 100.0%; height: 100.0%;">Coyoacán, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_fcbab3b427d24582986a8ea0d759b773.setContent(html_f10b9242d36c41a3b2eb6ce3854ab94d);
+            
+
+            circle_marker_7c3e6f9b45284f87a0726ba2283751c9.bindPopup(popup_fcbab3b427d24582986a8ea0d759b773);
+
+            
+        
+    
+            var circle_marker_2bb80e1109ca44599ccef30a86e9d860 = L.circleMarker(
+                [19.3187067,-99.3232029771644],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_7bde74df1836402bb5170959078490e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_bfeb4ba4d5504278bd929743237a8e0a = $('<div id="html_bfeb4ba4d5504278bd929743237a8e0a" style="width: 100.0%; height: 100.0%;">Cuajimalpa de Morelos, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_7bde74df1836402bb5170959078490e9.setContent(html_bfeb4ba4d5504278bd929743237a8e0a);
+            
+
+            circle_marker_2bb80e1109ca44599ccef30a86e9d860.bindPopup(popup_7bde74df1836402bb5170959078490e9);
+
+            
+        
+    
+            var circle_marker_601ed4a824464a1bb881e507eb5e5d7f = L.circleMarker(
+                [19.51854545,-99.1436344765031],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_c69fb11e7bd24885853a6a179d3de606 = L.popup({maxWidth: '300'});
+
+            
+                var html_13056665cc56462c89000060a437fa5d = $('<div id="html_13056665cc56462c89000060a437fa5d" style="width: 100.0%; height: 100.0%;">Gustavo A. Madero, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_c69fb11e7bd24885853a6a179d3de606.setContent(html_13056665cc56462c89000060a437fa5d);
+            
+
+            circle_marker_601ed4a824464a1bb881e507eb5e5d7f.bindPopup(popup_c69fb11e7bd24885853a6a179d3de606);
+
+            
+        
+    
+            var circle_marker_799f8ef9b9af48fb8b1325dbcd2c9e80 = L.circleMarker(
+                [19.39897535,-99.095311970323],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_2601ba48c7d1403ab176d17c72b8fa65 = L.popup({maxWidth: '300'});
+
+            
+                var html_dd963513a18144978ecb510e109e70c5 = $('<div id="html_dd963513a18144978ecb510e109e70c5" style="width: 100.0%; height: 100.0%;">Iztacalco, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_2601ba48c7d1403ab176d17c72b8fa65.setContent(html_dd963513a18144978ecb510e109e70c5);
+            
+
+            circle_marker_799f8ef9b9af48fb8b1325dbcd2c9e80.bindPopup(popup_2601ba48c7d1403ab176d17c72b8fa65);
+
+            
+        
+    
+            var circle_marker_34db0e55d491420c8b525d8774c69719 = L.circleMarker(
+                [19.3428293,-99.046891938467],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_894d6fef9bd74dc2b2d638e6b48d8b14 = L.popup({maxWidth: '300'});
+
+            
+                var html_447e78139ce74ca1914a1cb1d1b0a63e = $('<div id="html_447e78139ce74ca1914a1cb1d1b0a63e" style="width: 100.0%; height: 100.0%;">Iztapalapa, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_894d6fef9bd74dc2b2d638e6b48d8b14.setContent(html_447e78139ce74ca1914a1cb1d1b0a63e);
+            
+
+            circle_marker_34db0e55d491420c8b525d8774c69719.bindPopup(popup_894d6fef9bd74dc2b2d638e6b48d8b14);
+
+            
+        
+    
+            var circle_marker_fb296374c1664d5ba71bf40f07dd1f17 = L.circleMarker(
+                [19.27547005,-99.2633385835894],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_8b8983782f0e4021973cda69bf489dfb = L.popup({maxWidth: '300'});
+
+            
+                var html_129149ff88934d9887a07929e3cd45ea = $('<div id="html_129149ff88934d9887a07929e3cd45ea" style="width: 100.0%; height: 100.0%;">La Magdalena Contreras, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_8b8983782f0e4021973cda69bf489dfb.setContent(html_129149ff88934d9887a07929e3cd45ea);
+            
+
+            circle_marker_fb296374c1664d5ba71bf40f07dd1f17.bindPopup(popup_8b8983782f0e4021973cda69bf489dfb);
+
+            
+        
+    
+            var circle_marker_13e329f8ccf845d7b0b5a305e644f3eb = L.circleMarker(
+                [19.138028,-99.0589201721088],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_3c000411c55945b3a265ac45c9ba7da0 = L.popup({maxWidth: '300'});
+
+            
+                var html_269e07fd9fe44128a3e27ad6426cb55f = $('<div id="html_269e07fd9fe44128a3e27ad6426cb55f" style="width: 100.0%; height: 100.0%;">Milpa Alta, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_3c000411c55945b3a265ac45c9ba7da0.setContent(html_269e07fd9fe44128a3e27ad6426cb55f);
+            
+
+            circle_marker_13e329f8ccf845d7b0b5a305e644f3eb.bindPopup(popup_3c000411c55945b3a265ac45c9ba7da0);
+
+            
+        
+    
+            var circle_marker_21b1eea401564b2dbcb6a9808200fc66 = L.circleMarker(
+                [19.31815315,-99.2778365837947],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_e847059824e0482e94b91d4a0f10018a = L.popup({maxWidth: '300'});
+
+            
+                var html_2075373acf6649f4ae8e127cc1f738c7 = $('<div id="html_2075373acf6649f4ae8e127cc1f738c7" style="width: 100.0%; height: 100.0%;">Álvaro Obregón, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_e847059824e0482e94b91d4a0f10018a.setContent(html_2075373acf6649f4ae8e127cc1f738c7);
+            
+
+            circle_marker_21b1eea401564b2dbcb6a9808200fc66.bindPopup(popup_e847059824e0482e94b91d4a0f10018a);
+
+            
+        
+    
+            var circle_marker_dd627e3d6e0e4f0a975b67107dca9839 = L.circleMarker(
+                [19.26950425,-99.0040968403251],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_4c7d53195ea0483893a19e21cf9051f3 = L.popup({maxWidth: '300'});
+
+            
+                var html_fcdc61bbcfe747ec952f2846acb7af56 = $('<div id="html_fcdc61bbcfe747ec952f2846acb7af56" style="width: 100.0%; height: 100.0%;">Tláhuac, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_4c7d53195ea0483893a19e21cf9051f3.setContent(html_fcdc61bbcfe747ec952f2846acb7af56);
+            
+
+            circle_marker_dd627e3d6e0e4f0a975b67107dca9839.bindPopup(popup_4c7d53195ea0483893a19e21cf9051f3);
+
+            
+        
+    
+            var circle_marker_4271f360f39e4e9f8a1293e8b91d6293 = L.circleMarker(
+                [19.200877,-99.2170124042715],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_a2e8a1496a6943fbaf6d5fe3c6b10493 = L.popup({maxWidth: '300'});
+
+            
+                var html_799da6460bf24dcea8e7d5cb41a578d1 = $('<div id="html_799da6460bf24dcea8e7d5cb41a578d1" style="width: 100.0%; height: 100.0%;">Tlalpan, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_a2e8a1496a6943fbaf6d5fe3c6b10493.setContent(html_799da6460bf24dcea8e7d5cb41a578d1);
+            
+
+            circle_marker_4271f360f39e4e9f8a1293e8b91d6293.bindPopup(popup_a2e8a1496a6943fbaf6d5fe3c6b10493);
+
+            
+        
+    
+            var circle_marker_aa9c18f30fdf42e4b732d45b7e97fbd7 = L.circleMarker(
+                [19.23697845,-99.0823001406525],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_6df8620919df46ac9f7218a08bf4da75 = L.popup({maxWidth: '300'});
+
+            
+                var html_9069145c859349ce857de23f9e9cb148 = $('<div id="html_9069145c859349ce857de23f9e9cb148" style="width: 100.0%; height: 100.0%;">Xochimilco, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_6df8620919df46ac9f7218a08bf4da75.setContent(html_9069145c859349ce857de23f9e9cb148);
+            
+
+            circle_marker_aa9c18f30fdf42e4b732d45b7e97fbd7.bindPopup(popup_6df8620919df46ac9f7218a08bf4da75);
+
+            
+        
+    
+            var circle_marker_9516b38ca7104a7fbae16f6aaa01c02c = L.circleMarker(
+                [19.3804695,-99.1632429340113],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_94127a259d32445bbf10d48b6e5da32c = L.popup({maxWidth: '300'});
+
+            
+                var html_571a26e47336466eb86cc6bc644d3d2c = $('<div id="html_571a26e47336466eb86cc6bc644d3d2c" style="width: 100.0%; height: 100.0%;">Benito Juárez, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_94127a259d32445bbf10d48b6e5da32c.setContent(html_571a26e47336466eb86cc6bc644d3d2c);
+            
+
+            circle_marker_9516b38ca7104a7fbae16f6aaa01c02c.bindPopup(popup_94127a259d32445bbf10d48b6e5da32c);
+
+            
+        
+    
+            var circle_marker_940cc1c3b14f4b888a9da9438926c52a = L.circleMarker(
+                [19.4326009,-99.1333416],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_220495d7d8c94d85b19fd5e7d7322e9a = L.popup({maxWidth: '300'});
+
+            
+                var html_d01a107555b14d80a1c1adce92d724b7 = $('<div id="html_d01a107555b14d80a1c1adce92d724b7" style="width: 100.0%; height: 100.0%;">Cuauhtémoc, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_220495d7d8c94d85b19fd5e7d7322e9a.setContent(html_d01a107555b14d80a1c1adce92d724b7);
+            
+
+            circle_marker_940cc1c3b14f4b888a9da9438926c52a.bindPopup(popup_220495d7d8c94d85b19fd5e7d7322e9a);
+
+            
+        
+    
+            var circle_marker_7a03df20213041fda2d1bf733ce70388 = L.circleMarker(
+                [19.42961405,-99.1986384564057],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_d7d9b26013f4468592d9ecc96b0402e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_15342dafd7f9467e9a4ad4bde436386c = $('<div id="html_15342dafd7f9467e9a4ad4bde436386c" style="width: 100.0%; height: 100.0%;">Miguel Hidalgo, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_d7d9b26013f4468592d9ecc96b0402e8.setContent(html_15342dafd7f9467e9a4ad4bde436386c);
+            
+
+            circle_marker_7a03df20213041fda2d1bf733ce70388.bindPopup(popup_d7d9b26013f4468592d9ecc96b0402e8);
+
+            
+        
+    
+            var circle_marker_dd6315bea869402580d471ae642b1b17 = L.circleMarker(
+                [19.432396,-99.0880628447066],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_73d2b8536e98449b98e28e1d7f0a611e = L.popup({maxWidth: '300'});
+
+            
+                var html_f032961af8434a17bec5bc09c0b42ffa = $('<div id="html_f032961af8434a17bec5bc09c0b42ffa" style="width: 100.0%; height: 100.0%;">Venustiano Carranza, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_73d2b8536e98449b98e28e1d7f0a611e.setContent(html_f032961af8434a17bec5bc09c0b42ffa);
+            
+
+            circle_marker_dd6315bea869402580d471ae642b1b17.bindPopup(popup_73d2b8536e98449b98e28e1d7f0a611e);
+
+            
+        
+    
+            var circle_marker_391c03335cd5478ab068aa63a96db2fa = L.circleMarker(
+                [24.0244371,-104.6702594],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_7e0040e3adbf479c964862a7cfc8767d = L.popup({maxWidth: '300'});
+
+            
+                var html_e4183ee5ccf24f8895a5d7d6e42fe492 = $('<div id="html_e4183ee5ccf24f8895a5d7d6e42fe492" style="width: 100.0%; height: 100.0%;">Durango, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_7e0040e3adbf479c964862a7cfc8767d.setContent(html_e4183ee5ccf24f8895a5d7d6e42fe492);
+            
+
+            circle_marker_391c03335cd5478ab068aa63a96db2fa.bindPopup(popup_7e0040e3adbf479c964862a7cfc8767d);
+
+            
+        
+    
+            var circle_marker_5037280cb6fc4916aa2151a1d25fc87d = L.circleMarker(
+                [25.5732473,-103.494779],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_4cc60f5ff4634663b10106983cc47f95 = L.popup({maxWidth: '300'});
+
+            
+                var html_7b0a1e8b723b45439798156f6652f327 = $('<div id="html_7b0a1e8b723b45439798156f6652f327" style="width: 100.0%; height: 100.0%;">Gómez Palacio, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_4cc60f5ff4634663b10106983cc47f95.setContent(html_7b0a1e8b723b45439798156f6652f327);
+            
+
+            circle_marker_5037280cb6fc4916aa2151a1d25fc87d.bindPopup(popup_4cc60f5ff4634663b10106983cc47f95);
+
+            
+        
+    
+            var circle_marker_cf3dd9f4db524b83af54b4f3266002d4 = L.circleMarker(
+                [20.5218445,-100.8139609],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_71e230adfdb14727ad9f87a6ca0b3ca3 = L.popup({maxWidth: '300'});
+
+            
+                var html_d5f106a9a4114393b38e9d1866af4ce6 = $('<div id="html_d5f106a9a4114393b38e9d1866af4ce6" style="width: 100.0%; height: 100.0%;">Celaya, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_71e230adfdb14727ad9f87a6ca0b3ca3.setContent(html_d5f106a9a4114393b38e9d1866af4ce6);
+            
+
+            circle_marker_cf3dd9f4db524b83af54b4f3266002d4.bindPopup(popup_71e230adfdb14727ad9f87a6ca0b3ca3);
+
+            
+        
+    
+            var circle_marker_d32a89cf4e264412960408163bf37e7f = L.circleMarker(
+                [20.6758761,-101.3521052],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_cac86703fcb944dda93999121f7ad988 = L.popup({maxWidth: '300'});
+
+            
+                var html_47351a68e604418fae6fabe2d777df19 = $('<div id="html_47351a68e604418fae6fabe2d777df19" style="width: 100.0%; height: 100.0%;">Irapuato, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_cac86703fcb944dda93999121f7ad988.setContent(html_47351a68e604418fae6fabe2d777df19);
+            
+
+            circle_marker_d32a89cf4e264412960408163bf37e7f.bindPopup(popup_cac86703fcb944dda93999121f7ad988);
+
+            
+        
+    
+            var circle_marker_8a82e9964c934694aad149eb1decfa29 = L.circleMarker(
+                [21.1218598,-101.6825081],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_9df212fd6e1a420ea2c334f99571e302 = L.popup({maxWidth: '300'});
+
+            
+                var html_cc43374153984dc4b11c61044342f18a = $('<div id="html_cc43374153984dc4b11c61044342f18a" style="width: 100.0%; height: 100.0%;">León, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_9df212fd6e1a420ea2c334f99571e302.setContent(html_cc43374153984dc4b11c61044342f18a);
+            
+
+            circle_marker_8a82e9964c934694aad149eb1decfa29.bindPopup(popup_9df212fd6e1a420ea2c334f99571e302);
+
+            
+        
+    
+            var circle_marker_9546e105f0a34973a2230dc20ff302b7 = L.circleMarker(
+                [20.65232455,-101.166841567875],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_af59aa3638b94f41bebfb6f5f55cc655 = L.popup({maxWidth: '300'});
+
+            
+                var html_8df3fb321e934b318b9755c829b41331 = $('<div id="html_8df3fb321e934b318b9755c829b41331" style="width: 100.0%; height: 100.0%;">Salamanca, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_af59aa3638b94f41bebfb6f5f55cc655.setContent(html_8df3fb321e934b318b9755c829b41331);
+            
+
+            circle_marker_9546e105f0a34973a2230dc20ff302b7.bindPopup(popup_af59aa3638b94f41bebfb6f5f55cc655);
+
+            
+        
+    
+            var circle_marker_d602c65d15a0491dbd1c324795ed832b = L.circleMarker(
+                [16.8680495,-99.8940182],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_ff7550131a9140b5b8d62767c7598770 = L.popup({maxWidth: '300'});
+
+            
+                var html_07fab95de4ab467f91aed19f9973f7b2 = $('<div id="html_07fab95de4ab467f91aed19f9973f7b2" style="width: 100.0%; height: 100.0%;">Acapulco de Juárez, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_ff7550131a9140b5b8d62767c7598770.setContent(html_07fab95de4ab467f91aed19f9973f7b2);
+            
+
+            circle_marker_d602c65d15a0491dbd1c324795ed832b.bindPopup(popup_ff7550131a9140b5b8d62767c7598770);
+
+            
+        
+    
+            var circle_marker_33665d9674be42af8314e6705c2901e6 = L.circleMarker(
+                [17.3919748,-99.7428629297313],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_7bb10ee908a246dca203d290bf6ea938 = L.popup({maxWidth: '300'});
+
+            
+                var html_78206b0114004e43ba455c60c716463d = $('<div id="html_78206b0114004e43ba455c60c716463d" style="width: 100.0%; height: 100.0%;">Chilpancingo de los Bravo, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_7bb10ee908a246dca203d290bf6ea938.setContent(html_78206b0114004e43ba455c60c716463d);
+            
+
+            circle_marker_33665d9674be42af8314e6705c2901e6.bindPopup(popup_7bb10ee908a246dca203d290bf6ea938);
+
+            
+        
+    
+            var circle_marker_74a3dd47d7cb4edba5bb7e0ee7ee6dac = L.circleMarker(
+                [18.1923169,-99.6023669533758],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_2da59e72bfb2493587d1a5b329da3983 = L.popup({maxWidth: '300'});
+
+            
+                var html_443a5e4fb21b4ec4af943432082efe86 = $('<div id="html_443a5e4fb21b4ec4af943432082efe86" style="width: 100.0%; height: 100.0%;">Iguala de la Independencia, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_2da59e72bfb2493587d1a5b329da3983.setContent(html_443a5e4fb21b4ec4af943432082efe86);
+            
+
+            circle_marker_74a3dd47d7cb4edba5bb7e0ee7ee6dac.bindPopup(popup_2da59e72bfb2493587d1a5b329da3983);
+
+            
+        
+    
+            var circle_marker_d2021bae122c4aa8aa8e793196c82854 = L.circleMarker(
+                [20.1165413,-98.7413535],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_c5d0092149eb4d8da439e8b19c45cad6 = L.popup({maxWidth: '300'});
+
+            
+                var html_94bc90c4218c41f8a933d0e3d0630c3b = $('<div id="html_94bc90c4218c41f8a933d0e3d0630c3b" style="width: 100.0%; height: 100.0%;">Pachuca de Soto, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_c5d0092149eb4d8da439e8b19c45cad6.setContent(html_94bc90c4218c41f8a933d0e3d0630c3b);
+            
+
+            circle_marker_d2021bae122c4aa8aa8e793196c82854.bindPopup(popup_c5d0092149eb4d8da439e8b19c45cad6);
+
+            
+        
+    
+            var circle_marker_9aa5c13ddc6c4140888e8be1feb9a102 = L.circleMarker(
+                [20.6720375,-103.3383962],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_c595bd3715644d0197c5404583eef0ea = L.popup({maxWidth: '300'});
+
+            
+                var html_6db6b5a85cf44384b14fce5eb3db06e8 = $('<div id="html_6db6b5a85cf44384b14fce5eb3db06e8" style="width: 100.0%; height: 100.0%;">Guadalajara, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_c595bd3715644d0197c5404583eef0ea.setContent(html_6db6b5a85cf44384b14fce5eb3db06e8);
+            
+
+            circle_marker_9aa5c13ddc6c4140888e8be1feb9a102.bindPopup(popup_c595bd3715644d0197c5404583eef0ea);
+
+            
+        
+    
+            var circle_marker_04ed9d83efa842f8b13bfc45200f35c7 = L.circleMarker(
+                [20.6407176,-105.2203066],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_a9a7b8716aa1425bbd085c655c5d8b79 = L.popup({maxWidth: '300'});
+
+            
+                var html_119d5b31b43f494b958dc77e34b914a1 = $('<div id="html_119d5b31b43f494b958dc77e34b914a1" style="width: 100.0%; height: 100.0%;">Puerto Vallarta, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_a9a7b8716aa1425bbd085c655c5d8b79.setContent(html_119d5b31b43f494b958dc77e34b914a1);
+            
+
+            circle_marker_04ed9d83efa842f8b13bfc45200f35c7.bindPopup(popup_a9a7b8716aa1425bbd085c655c5d8b79);
+
+            
+        
+    
+            var circle_marker_2b0e063900654e0797970084b7aa9c34 = L.circleMarker(
+                [20.6084288,-103.3151995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_6d9cd46c08584da2bcadac27b2b7de91 = L.popup({maxWidth: '300'});
+
+            
+                var html_2ddc3eb1d9544ae1b918ca6aafbbe0e3 = $('<div id="html_2ddc3eb1d9544ae1b918ca6aafbbe0e3" style="width: 100.0%; height: 100.0%;">Tlaquepaque, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_6d9cd46c08584da2bcadac27b2b7de91.setContent(html_2ddc3eb1d9544ae1b918ca6aafbbe0e3);
+            
+
+            circle_marker_2b0e063900654e0797970084b7aa9c34.bindPopup(popup_6d9cd46c08584da2bcadac27b2b7de91);
+
+            
+        
+    
+            var circle_marker_a124523280b44487b532a5dd4410cc4e = L.circleMarker(
+                [20.7032055,-103.4261243],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_ef9410df360040d09a2cf8670a410627 = L.popup({maxWidth: '300'});
+
+            
+                var html_ae9fd23f7a124aa8bdcf1149839f7692 = $('<div id="html_ae9fd23f7a124aa8bdcf1149839f7692" style="width: 100.0%; height: 100.0%;">Zapopan, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_ef9410df360040d09a2cf8670a410627.setContent(html_ae9fd23f7a124aa8bdcf1149839f7692);
+            
+
+            circle_marker_a124523280b44487b532a5dd4410cc4e.bindPopup(popup_ef9410df360040d09a2cf8670a410627);
+
+            
+        
+    
+            var circle_marker_da555101d8e840fcbd2154a0ce867a7e = L.circleMarker(
+                [19.56401705,-99.2795355780265],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_5e0bc3a475a7457bbd640e49ba319e32 = L.popup({maxWidth: '300'});
+
+            
+                var html_39b8a06e528a4cd0845a9dc52d71d5c3 = $('<div id="html_39b8a06e528a4cd0845a9dc52d71d5c3" style="width: 100.0%; height: 100.0%;">Atizapán de Zaragoza, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_5e0bc3a475a7457bbd640e49ba319e32.setContent(html_39b8a06e528a4cd0845a9dc52d71d5c3);
+            
+
+            circle_marker_da555101d8e840fcbd2154a0ce867a7e.bindPopup(popup_5e0bc3a475a7457bbd640e49ba319e32);
+
+            
+        
+    
+            var circle_marker_feeb3d34390e403981ca1958b88e6ca4 = L.circleMarker(
+                [19.6262421,-99.1030069884977],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_f97f02fc3bbc4cfda70d3287c08fc106 = L.popup({maxWidth: '300'});
+
+            
+                var html_b47a86a0f36a40c982725f43a0e43522 = $('<div id="html_b47a86a0f36a40c982725f43a0e43522" style="width: 100.0%; height: 100.0%;">Coacalco de Berriozábal, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_f97f02fc3bbc4cfda70d3287c08fc106.setContent(html_b47a86a0f36a40c982725f43a0e43522);
+            
+
+            circle_marker_feeb3d34390e403981ca1958b88e6ca4.bindPopup(popup_f97f02fc3bbc4cfda70d3287c08fc106);
+
+            
+        
+    
+            var circle_marker_10170c45bd4c4a0480f849d5ef9ffb21 = L.circleMarker(
+                [19.2382585,-98.8188837639518],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_34aedba3636748d791e794ffc5f43bc1 = L.popup({maxWidth: '300'});
+
+            
+                var html_23f77336ab16474bb28bc32ddd66a7cc = $('<div id="html_23f77336ab16474bb28bc32ddd66a7cc" style="width: 100.0%; height: 100.0%;">Chalco, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_34aedba3636748d791e794ffc5f43bc1.setContent(html_23f77336ab16474bb28bc32ddd66a7cc);
+            
+
+            circle_marker_10170c45bd4c4a0480f849d5ef9ffb21.bindPopup(popup_34aedba3636748d791e794ffc5f43bc1);
+
+            
+        
+    
+            var circle_marker_8b8849fc9b5a4e7caf6fe0663a8f0780 = L.circleMarker(
+                [19.39658025,-98.8699719695884],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_7c47635329fd4cb7ae910923cca18165 = L.popup({maxWidth: '300'});
+
+            
+                var html_d9c64216b08a46a48c470453dde1410c = $('<div id="html_d9c64216b08a46a48c470453dde1410c" style="width: 100.0%; height: 100.0%;">Chicoloapan, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_7c47635329fd4cb7ae910923cca18165.setContent(html_d9c64216b08a46a48c470453dde1410c);
+            
+
+            circle_marker_8b8849fc9b5a4e7caf6fe0663a8f0780.bindPopup(popup_7c47635329fd4cb7ae910923cca18165);
+
+            
+        
+    
+            var circle_marker_4936394d1b6e437d962eb05b5a54afa2 = L.circleMarker(
+                [19.4339293,-98.9580149],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_f73b789a93ef4882b56f1f6802587f70 = L.popup({maxWidth: '300'});
+
+            
+                var html_af8c526baee74062aaf7c89e8c4e6932 = $('<div id="html_af8c526baee74062aaf7c89e8c4e6932" style="width: 100.0%; height: 100.0%;">Chimalhuacán, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_f73b789a93ef4882b56f1f6802587f70.setContent(html_af8c526baee74062aaf7c89e8c4e6932);
+            
+
+            circle_marker_4936394d1b6e437d962eb05b5a54afa2.bindPopup(popup_f73b789a93ef4882b56f1f6802587f70);
+
+            
+        
+    
+            var circle_marker_4b2d05ce7eff4793af8947d70055600b = L.circleMarker(
+                [19.3170983,-98.9050144],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_5d379a5570b34c81a1d431ae3c6c37d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_2c08bd87d75f4135aec8502f7c5fe7dd = $('<div id="html_2c08bd87d75f4135aec8502f7c5fe7dd" style="width: 100.0%; height: 100.0%;">Ixtapaluca, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_5d379a5570b34c81a1d431ae3c6c37d9.setContent(html_2c08bd87d75f4135aec8502f7c5fe7dd);
+            
+
+            circle_marker_4b2d05ce7eff4793af8947d70055600b.bindPopup(popup_5d379a5570b34c81a1d431ae3c6c37d9);
+
+            
+        
+    
+            var circle_marker_bc33d2603beb47e8b4b61a42cbecb4f2 = L.circleMarker(
+                [19.4785796,-99.2328791],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_c0493648850b4194bbbaadf3ffa8fd34 = L.popup({maxWidth: '300'});
+
+            
+                var html_974684cb8c08455a875aceb05d0831bd = $('<div id="html_974684cb8c08455a875aceb05d0831bd" style="width: 100.0%; height: 100.0%;">Naucalpan de Juárez, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_c0493648850b4194bbbaadf3ffa8fd34.setContent(html_974684cb8c08455a875aceb05d0831bd);
+            
+
+            circle_marker_bc33d2603beb47e8b4b61a42cbecb4f2.bindPopup(popup_c0493648850b4194bbbaadf3ffa8fd34);
+
+            
+        
+    
+            var circle_marker_05333c76606f474ab43d557f96c025d2 = L.circleMarker(
+                [19.4021151,-99.0170173],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_340f64b92e8f4fd3b9982bc10ba56509 = L.popup({maxWidth: '300'});
+
+            
+                var html_0c4417349b724ea5b2e21b605256866f = $('<div id="html_0c4417349b724ea5b2e21b605256866f" style="width: 100.0%; height: 100.0%;">Nezahualcóyotl, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_340f64b92e8f4fd3b9982bc10ba56509.setContent(html_0c4417349b724ea5b2e21b605256866f);
+            
+
+            circle_marker_05333c76606f474ab43d557f96c025d2.bindPopup(popup_340f64b92e8f4fd3b9982bc10ba56509);
+
+            
+        
+    
+            var circle_marker_f7fabf6a96f541cab40081f68f0b955a = L.circleMarker(
+                [19.63422625,-99.3695564379207],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_e112e0f6fc5447e784e5ad11cd2bdba0 = L.popup({maxWidth: '300'});
+
+            
+                var html_7b30024475fb438fa2a74c71e487112f = $('<div id="html_7b30024475fb438fa2a74c71e487112f" style="width: 100.0%; height: 100.0%;">Nicolás Romero, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_e112e0f6fc5447e784e5ad11cd2bdba0.setContent(html_7b30024475fb438fa2a74c71e487112f);
+            
+
+            circle_marker_f7fabf6a96f541cab40081f68f0b955a.bindPopup(popup_e112e0f6fc5447e784e5ad11cd2bdba0);
+
+            
+        
+    
+            var circle_marker_1ac94491f6af4c9db3447afa7c77db85 = L.circleMarker(
+                [19.7115011,-98.968354],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_58f505b6d2af4154926a475e389455de = L.popup({maxWidth: '300'});
+
+            
+                var html_2294d31f294e4f8791e1bc9afe68b886 = $('<div id="html_2294d31f294e4f8791e1bc9afe68b886" style="width: 100.0%; height: 100.0%;">Tecámac, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_58f505b6d2af4154926a475e389455de.setContent(html_2294d31f294e4f8791e1bc9afe68b886);
+            
+
+            circle_marker_1ac94491f6af4c9db3447afa7c77db85.bindPopup(popup_58f505b6d2af4154926a475e389455de);
+
+            
+        
+    
+            var circle_marker_02ebac3197384a8697d87756c17a828a = L.circleMarker(
+                [19.54649025,-99.1899352013895],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_df5f7affb9ad4fe2b7976b98699cefc9 = L.popup({maxWidth: '300'});
+
+            
+                var html_53e124a55f664704917fdb2c488c23e5 = $('<div id="html_53e124a55f664704917fdb2c488c23e5" style="width: 100.0%; height: 100.0%;">Tlalnepantla de Baz, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_df5f7affb9ad4fe2b7976b98699cefc9.setContent(html_53e124a55f664704917fdb2c488c23e5);
+            
+
+            circle_marker_02ebac3197384a8697d87756c17a828a.bindPopup(popup_df5f7affb9ad4fe2b7976b98699cefc9);
+
+            
+        
+    
+            var circle_marker_3955a39f01b44e38b5bc8ab2c5a11352 = L.circleMarker(
+                [19.292545,-99.6569007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_5882343a0deb4bb088fd1f51b65c575c = L.popup({maxWidth: '300'});
+
+            
+                var html_f67db515cff64ec9a0ef9034c42d3982 = $('<div id="html_f67db515cff64ec9a0ef9034c42d3982" style="width: 100.0%; height: 100.0%;">Toluca, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_5882343a0deb4bb088fd1f51b65c575c.setContent(html_f67db515cff64ec9a0ef9034c42d3982);
+            
+
+            circle_marker_3955a39f01b44e38b5bc8ab2c5a11352.bindPopup(popup_5882343a0deb4bb088fd1f51b65c575c);
+
+            
+        
+    
+            var circle_marker_31f176f3f0cf44bea95cd8ae6fe3254a = L.circleMarker(
+                [19.6168603,-99.1592731209325],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_43653eee973740b08646f54850430f79 = L.popup({maxWidth: '300'});
+
+            
+                var html_27966fe476444aefb7f5fa41c9cbd0d8 = $('<div id="html_27966fe476444aefb7f5fa41c9cbd0d8" style="width: 100.0%; height: 100.0%;">Tultitlán, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_43653eee973740b08646f54850430f79.setContent(html_27966fe476444aefb7f5fa41c9cbd0d8);
+            
+
+            circle_marker_31f176f3f0cf44bea95cd8ae6fe3254a.bindPopup(popup_43653eee973740b08646f54850430f79);
+
+            
+        
+    
+            var circle_marker_5cc7ca873cc3422bafa91a8c0b9d66e8 = L.circleMarker(
+                [19.6531356,-99.2145002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_460b36c3ef1342b5af62ec5e72811f42 = L.popup({maxWidth: '300'});
+
+            
+                var html_0cb2dfeb8a6146d19e6973c66e02062b = $('<div id="html_0cb2dfeb8a6146d19e6973c66e02062b" style="width: 100.0%; height: 100.0%;">Cuautitlán Izcalli, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_460b36c3ef1342b5af62ec5e72811f42.setContent(html_0cb2dfeb8a6146d19e6973c66e02062b);
+            
+
+            circle_marker_5cc7ca873cc3422bafa91a8c0b9d66e8.bindPopup(popup_460b36c3ef1342b5af62ec5e72811f42);
+
+            
+        
+    
+            var circle_marker_9ee37cbd14d141cd9fc7bc86f380c8d2 = L.circleMarker(
+                [19.7027116,-101.1923818],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_5d00ee2820704a18892acca8aed4ec6b = L.popup({maxWidth: '300'});
+
+            
+                var html_c52443e1e4c541aaaafff9cc3a4b81e9 = $('<div id="html_c52443e1e4c541aaaafff9cc3a4b81e9" style="width: 100.0%; height: 100.0%;">Morelia, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_5d00ee2820704a18892acca8aed4ec6b.setContent(html_c52443e1e4c541aaaafff9cc3a4b81e9);
+            
+
+            circle_marker_9ee37cbd14d141cd9fc7bc86f380c8d2.bindPopup(popup_5d00ee2820704a18892acca8aed4ec6b);
+
+            
+        
+    
+            var circle_marker_7b2f30906188495484c71ede93b0e550 = L.circleMarker(
+                [19.40604335,-102.034290046219],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_eb827b291b314976951e4197cc6edc4d = L.popup({maxWidth: '300'});
+
+            
+                var html_65b92dcb1b6345b487f0b8fa16cfcfff = $('<div id="html_65b92dcb1b6345b487f0b8fa16cfcfff" style="width: 100.0%; height: 100.0%;">Uruapan, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_eb827b291b314976951e4197cc6edc4d.setContent(html_65b92dcb1b6345b487f0b8fa16cfcfff);
+            
+
+            circle_marker_7b2f30906188495484c71ede93b0e550.bindPopup(popup_eb827b291b314976951e4197cc6edc4d);
+
+            
+        
+    
+            var circle_marker_58a3e4bffe2942f38cf5e7017b114bc0 = L.circleMarker(
+                [20.0290033,-102.271268668769],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_a6aabb24992a43819c1d62665db5b998 = L.popup({maxWidth: '300'});
+
+            
+                var html_42f59aef894b4e61add61d02bacea6ae = $('<div id="html_42f59aef894b4e61add61d02bacea6ae" style="width: 100.0%; height: 100.0%;">Zamora, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_a6aabb24992a43819c1d62665db5b998.setContent(html_42f59aef894b4e61add61d02bacea6ae);
+            
+
+            circle_marker_58a3e4bffe2942f38cf5e7017b114bc0.bindPopup(popup_a6aabb24992a43819c1d62665db5b998);
+
+            
+        
+    
+            var circle_marker_c8557a95756649c9afc84a28ca12539c = L.circleMarker(
+                [18.82294225,-98.9722994896867],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_99928593ebfe46f8a84f1970e08bd5c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_95df0680728e4a5e807e8ce9e3189416 = $('<div id="html_95df0680728e4a5e807e8ce9e3189416" style="width: 100.0%; height: 100.0%;">Cuautla, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_99928593ebfe46f8a84f1970e08bd5c4.setContent(html_95df0680728e4a5e807e8ce9e3189416);
+            
+
+            circle_marker_c8557a95756649c9afc84a28ca12539c.bindPopup(popup_99928593ebfe46f8a84f1970e08bd5c4);
+
+            
+        
+    
+            var circle_marker_1a8c27a65ac740d39d6ee96a0b2e9dee = L.circleMarker(
+                [18.9218274,-99.2342282],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_a00a6a6f171940bf8aed6559979a1649 = L.popup({maxWidth: '300'});
+
+            
+                var html_7a033315835b41fe9e2bdd9ae3dea0ec = $('<div id="html_7a033315835b41fe9e2bdd9ae3dea0ec" style="width: 100.0%; height: 100.0%;">Cuernavaca, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_a00a6a6f171940bf8aed6559979a1649.setContent(html_7a033315835b41fe9e2bdd9ae3dea0ec);
+            
+
+            circle_marker_1a8c27a65ac740d39d6ee96a0b2e9dee.bindPopup(popup_a00a6a6f171940bf8aed6559979a1649);
+
+            
+        
+    
+            var circle_marker_fe7b1fa08c76437484146f8903b3fbe3 = L.circleMarker(
+                [18.88638935,-99.1701224011532],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_24d0505344f841c29dcc489fc46c7d35 = L.popup({maxWidth: '300'});
+
+            
+                var html_9b66fe8d01974523962057bb35a0e16f = $('<div id="html_9b66fe8d01974523962057bb35a0e16f" style="width: 100.0%; height: 100.0%;">Jiutepec, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_24d0505344f841c29dcc489fc46c7d35.setContent(html_9b66fe8d01974523962057bb35a0e16f);
+            
+
+            circle_marker_fe7b1fa08c76437484146f8903b3fbe3.bindPopup(popup_24d0505344f841c29dcc489fc46c7d35);
+
+            
+        
+    
+            var circle_marker_ca87ec71ad9d4c2084da57eb9836cbbd = L.circleMarker(
+                [22.4051063,-105.3882188],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_fbb9dd1536ff4cf9a7f7a516e06c7595 = L.popup({maxWidth: '300'});
+
+            
+                var html_b3977c9574444859ae194044350bdae5 = $('<div id="html_b3977c9574444859ae194044350bdae5" style="width: 100.0%; height: 100.0%;">Tepic, Cluster: 2, High Risk Factor Index</div>')[0];
+                popup_fbb9dd1536ff4cf9a7f7a516e06c7595.setContent(html_b3977c9574444859ae194044350bdae5);
+            
+
+            circle_marker_ca87ec71ad9d4c2084da57eb9836cbbd.bindPopup(popup_fbb9dd1536ff4cf9a7f7a516e06c7595);
+
+            
+        
+    
+            var circle_marker_860218e608f844f78f50f7a029bf1878 = L.circleMarker(
+                [25.7871006,-100.185076945432],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_b59cd0b7f04f4e2ba8f67500f21d682a = L.popup({maxWidth: '300'});
+
+            
+                var html_4f59ca2fc2d64e31a0b4437d77709400 = $('<div id="html_4f59ca2fc2d64e31a0b4437d77709400" style="width: 100.0%; height: 100.0%;">Apodaca, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_b59cd0b7f04f4e2ba8f67500f21d682a.setContent(html_4f59ca2fc2d64e31a0b4437d77709400);
+            
+
+            circle_marker_860218e608f844f78f50f7a029bf1878.bindPopup(popup_b59cd0b7f04f4e2ba8f67500f21d682a);
+
+            
+        
+    
+            var circle_marker_b6beaeed4ac54f0f9f1b3d1bb2ff8cc9 = L.circleMarker(
+                [25.6651051,-100.4022714],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_70c27d42146b411d88f21a6543640428 = L.popup({maxWidth: '300'});
+
+            
+                var html_c49896ed36484a059b5b5583e8141326 = $('<div id="html_c49896ed36484a059b5b5583e8141326" style="width: 100.0%; height: 100.0%;">San Pedro Garza García, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_70c27d42146b411d88f21a6543640428.setContent(html_c49896ed36484a059b5b5583e8141326);
+            
+
+            circle_marker_b6beaeed4ac54f0f9f1b3d1bb2ff8cc9.bindPopup(popup_70c27d42146b411d88f21a6543640428);
+
+            
+        
+    
+            var circle_marker_44fe75ebe97749248b7e5fae228dd8c1 = L.circleMarker(
+                [25.83034855,-100.351794985847],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_157d8ef67314461493c230d04db23dac = L.popup({maxWidth: '300'});
+
+            
+                var html_b0dcb864f4e349c2b267c5f67e26b16f = $('<div id="html_b0dcb864f4e349c2b267c5f67e26b16f" style="width: 100.0%; height: 100.0%;">General Escobedo, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_157d8ef67314461493c230d04db23dac.setContent(html_b0dcb864f4e349c2b267c5f67e26b16f);
+            
+
+            circle_marker_44fe75ebe97749248b7e5fae228dd8c1.bindPopup(popup_157d8ef67314461493c230d04db23dac);
+
+            
+        
+    
+            var circle_marker_c623c4017b8946258ee5643ac8c97724 = L.circleMarker(
+                [25.6766398,-100.200072072614],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_0f4a1e5a28214bfe992547411c739af1 = L.popup({maxWidth: '300'});
+
+            
+                var html_3f8978990bd341828e860ee8ff70dafe = $('<div id="html_3f8978990bd341828e860ee8ff70dafe" style="width: 100.0%; height: 100.0%;">Guadalupe, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_0f4a1e5a28214bfe992547411c739af1.setContent(html_3f8978990bd341828e860ee8ff70dafe);
+            
+
+            circle_marker_c623c4017b8946258ee5643ac8c97724.bindPopup(popup_0f4a1e5a28214bfe992547411c739af1);
+
+            
+        
+    
+            var circle_marker_a9246c252f93474fa36ccbfefaea26ce = L.circleMarker(
+                [25.6076075,-100.156794109351],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_7835aa9c92b84ca392c1ff9096c94db4 = L.popup({maxWidth: '300'});
+
+            
+                var html_a456cc0cf7f542d4b13d56495a256966 = $('<div id="html_a456cc0cf7f542d4b13d56495a256966" style="width: 100.0%; height: 100.0%;">Juárez, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_7835aa9c92b84ca392c1ff9096c94db4.setContent(html_a456cc0cf7f542d4b13d56495a256966);
+            
+
+            circle_marker_a9246c252f93474fa36ccbfefaea26ce.bindPopup(popup_7835aa9c92b84ca392c1ff9096c94db4);
+
+            
+        
+    
+            var circle_marker_f8442e8d44fa43a5958934ad68315996 = L.circleMarker(
+                [25.6802019,-100.3152586],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_b4446956c58a43f4a64977973f333d80 = L.popup({maxWidth: '300'});
+
+            
+                var html_cf5a8112a47e4689a8c2b876e4cfc98a = $('<div id="html_cf5a8112a47e4689a8c2b876e4cfc98a" style="width: 100.0%; height: 100.0%;">Monterrey, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_b4446956c58a43f4a64977973f333d80.setContent(html_cf5a8112a47e4689a8c2b876e4cfc98a);
+            
+
+            circle_marker_f8442e8d44fa43a5958934ad68315996.bindPopup(popup_b4446956c58a43f4a64977973f333d80);
+
+            
+        
+    
+            var circle_marker_fdf16f07f01f426f8075448ad488d351 = L.circleMarker(
+                [25.73584235,-100.266494516522],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_a712724adce54e4b86c86a17db8e95f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_747d651ec06c4e51bb6b0c6355c624db = $('<div id="html_747d651ec06c4e51bb6b0c6355c624db" style="width: 100.0%; height: 100.0%;">San Nicolás de los Garza, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_a712724adce54e4b86c86a17db8e95f4.setContent(html_747d651ec06c4e51bb6b0c6355c624db);
+            
+
+            circle_marker_fdf16f07f01f426f8075448ad488d351.bindPopup(popup_a712724adce54e4b86c86a17db8e95f4);
+
+            
+        
+    
+            var circle_marker_2bdd9c5d3b6b4324a49d99887e07fe36 = L.circleMarker(
+                [25.5817176,-100.519187962793],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_1df12b58e7f84e998183d48651c7fdf2 = L.popup({maxWidth: '300'});
+
+            
+                var html_463bf785ee7b44a8bf47f62ba2b6b4d0 = $('<div id="html_463bf785ee7b44a8bf47f62ba2b6b4d0" style="width: 100.0%; height: 100.0%;">Santa Catarina, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_1df12b58e7f84e998183d48651c7fdf2.setContent(html_463bf785ee7b44a8bf47f62ba2b6b4d0);
+            
+
+            circle_marker_2bdd9c5d3b6b4324a49d99887e07fe36.bindPopup(popup_1df12b58e7f84e998183d48651c7fdf2);
+
+            
+        
+    
+            var circle_marker_9b52be38f7884438805b6cf4760ead44 = L.circleMarker(
+                [17.0604663,-96.7253575],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_eefee810c8594b7683c78b32fe066f87 = L.popup({maxWidth: '300'});
+
+            
+                var html_86bf9169ec6e4e56a059009eb1607c1a = $('<div id="html_86bf9169ec6e4e56a059009eb1607c1a" style="width: 100.0%; height: 100.0%;">Oaxaca de Juárez, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_eefee810c8594b7683c78b32fe066f87.setContent(html_86bf9169ec6e4e56a059009eb1607c1a);
+            
+
+            circle_marker_9b52be38f7884438805b6cf4760ead44.bindPopup(popup_eefee810c8594b7683c78b32fe066f87);
+
+            
+        
+    
+            var circle_marker_46da95d3f66744bd8a85db2d67a08b87 = L.circleMarker(
+                [19.0437227,-98.1984744],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_e04bacd165274df8b5636db711c4925d = L.popup({maxWidth: '300'});
+
+            
+                var html_b234404cf7674e91b52afecd98790237 = $('<div id="html_b234404cf7674e91b52afecd98790237" style="width: 100.0%; height: 100.0%;">Puebla, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_e04bacd165274df8b5636db711c4925d.setContent(html_b234404cf7674e91b52afecd98790237);
+            
+
+            circle_marker_46da95d3f66744bd8a85db2d67a08b87.bindPopup(popup_e04bacd165274df8b5636db711c4925d);
+
+            
+        
+    
+            var circle_marker_0ea8cbe84f434c7696c981febc47d89d = L.circleMarker(
+                [18.46580115,-97.397834799724],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_26ac47986164408895c9282a63e1a9f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_33a126a6d5804b1683bbefc5fffd7d2a = $('<div id="html_33a126a6d5804b1683bbefc5fffd7d2a" style="width: 100.0%; height: 100.0%;">Tehuacán, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_26ac47986164408895c9282a63e1a9f0.setContent(html_33a126a6d5804b1683bbefc5fffd7d2a);
+            
+
+            circle_marker_0ea8cbe84f434c7696c981febc47d89d.bindPopup(popup_26ac47986164408895c9282a63e1a9f0);
+
+            
+        
+    
+            var circle_marker_19f8af07231541e2bd41c4b2eb493d58 = L.circleMarker(
+                [20.5878372,-100.3879904],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_59bacf698fee4f31834beca2178eccaf = L.popup({maxWidth: '300'});
+
+            
+                var html_404a9bc0ed214d06ae813faeab371c14 = $('<div id="html_404a9bc0ed214d06ae813faeab371c14" style="width: 100.0%; height: 100.0%;">Querétaro, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_59bacf698fee4f31834beca2178eccaf.setContent(html_404a9bc0ed214d06ae813faeab371c14);
+            
+
+            circle_marker_19f8af07231541e2bd41c4b2eb493d58.bindPopup(popup_59bacf698fee4f31834beca2178eccaf);
+
+            
+        
+    
+            var circle_marker_8a459c7ac6764fc781987432a1a7e419 = L.circleMarker(
+                [20.38704625,-100.011962748276],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_0ed0d44818f94cac89207183eae75311 = L.popup({maxWidth: '300'});
+
+            
+                var html_5e9c0b140a764aa4aad90b26314c248c = $('<div id="html_5e9c0b140a764aa4aad90b26314c248c" style="width: 100.0%; height: 100.0%;">San Juan del Río, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_0ed0d44818f94cac89207183eae75311.setContent(html_5e9c0b140a764aa4aad90b26314c248c);
+            
+
+            circle_marker_8a459c7ac6764fc781987432a1a7e419.bindPopup(popup_0ed0d44818f94cac89207183eae75311);
+
+            
+        
+    
+            var circle_marker_b59ecbcce1df456f9bdd535616e263a9 = L.circleMarker(
+                [18.4375388,-88.8256815051895],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_881a727a9697470fb9af37696f8f5654 = L.popup({maxWidth: '300'});
+
+            
+                var html_884a9adac9764c4e8a3e9e87ba10e2e6 = $('<div id="html_884a9adac9764c4e8a3e9e87ba10e2e6" style="width: 100.0%; height: 100.0%;">Othón P. Blanco, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_881a727a9697470fb9af37696f8f5654.setContent(html_884a9adac9764c4e8a3e9e87ba10e2e6);
+            
+
+            circle_marker_b59ecbcce1df456f9bdd535616e263a9.bindPopup(popup_881a727a9697470fb9af37696f8f5654);
+
+            
+        
+    
+            var circle_marker_20749952102e4534bc506de9e57052d1 = L.circleMarker(
+                [20.98154135,-87.0750072863356],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_d73ee4b07c2e4804b39113cf551c2f2c = L.popup({maxWidth: '300'});
+
+            
+                var html_438a585122ed430a915683d9ac7ae801 = $('<div id="html_438a585122ed430a915683d9ac7ae801" style="width: 100.0%; height: 100.0%;">Benito Juárez, Cluster: 2, High Risk Factor Index</div>')[0];
+                popup_d73ee4b07c2e4804b39113cf551c2f2c.setContent(html_438a585122ed430a915683d9ac7ae801);
+            
+
+            circle_marker_20749952102e4534bc506de9e57052d1.bindPopup(popup_d73ee4b07c2e4804b39113cf551c2f2c);
+
+            
+        
+    
+            var circle_marker_73019c8f5e344b09ad7df4426eb68842 = L.circleMarker(
+                [20.5843747,-87.5034526829675],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_67a74b38fd2d4c75be46c06f3fd4495a = L.popup({maxWidth: '300'});
+
+            
+                var html_3c01ed373e8441a2a5fa2c2c1fc07a84 = $('<div id="html_3c01ed373e8441a2a5fa2c2c1fc07a84" style="width: 100.0%; height: 100.0%;">Solidaridad, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_67a74b38fd2d4c75be46c06f3fd4495a.setContent(html_3c01ed373e8441a2a5fa2c2c1fc07a84);
+            
+
+            circle_marker_73019c8f5e344b09ad7df4426eb68842.bindPopup(popup_67a74b38fd2d4c75be46c06f3fd4495a);
+
+            
+        
+    
+            var circle_marker_05cacb061d7341679c8c0f66f472e2ce = L.circleMarker(
+                [22.0757924,-99.0733757727894],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_823ba842c5c44d9da6c7c39855e36142 = L.popup({maxWidth: '300'});
+
+            
+                var html_16982b67b4034f448c3069261631a2dc = $('<div id="html_16982b67b4034f448c3069261631a2dc" style="width: 100.0%; height: 100.0%;">Ciudad Valles, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_823ba842c5c44d9da6c7c39855e36142.setContent(html_16982b67b4034f448c3069261631a2dc);
+            
+
+            circle_marker_05cacb061d7341679c8c0f66f472e2ce.bindPopup(popup_823ba842c5c44d9da6c7c39855e36142);
+
+            
+        
+    
+            var circle_marker_96418e1365e54042bf6bc6a8d2d3db51 = L.circleMarker(
+                [22.1516472,-100.9763993],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_41ee07db906443008bcf4b96dcf13f3a = L.popup({maxWidth: '300'});
+
+            
+                var html_14337948b98c40188c6fd1f59b6c059c = $('<div id="html_14337948b98c40188c6fd1f59b6c059c" style="width: 100.0%; height: 100.0%;">San Luis Potosí, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_41ee07db906443008bcf4b96dcf13f3a.setContent(html_14337948b98c40188c6fd1f59b6c059c);
+            
+
+            circle_marker_96418e1365e54042bf6bc6a8d2d3db51.bindPopup(popup_41ee07db906443008bcf4b96dcf13f3a);
+
+            
+        
+    
+            var circle_marker_e5c6a4ac756a4674bfcdd1f33a5a3bb0 = L.circleMarker(
+                [22.29705545,-100.867195609264],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_83aa5c22396d497ea9ab5c078dfafe53 = L.popup({maxWidth: '300'});
+
+            
+                var html_9837e60971734485ac5c03d9bee8d80c = $('<div id="html_9837e60971734485ac5c03d9bee8d80c" style="width: 100.0%; height: 100.0%;">Soledad de Graciano Sánchez, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_83aa5c22396d497ea9ab5c078dfafe53.setContent(html_9837e60971734485ac5c03d9bee8d80c);
+            
+
+            circle_marker_e5c6a4ac756a4674bfcdd1f33a5a3bb0.bindPopup(popup_83aa5c22396d497ea9ab5c078dfafe53);
+
+            
+        
+    
+            var circle_marker_bc941966ff7f425fb236ab659a62f64f = L.circleMarker(
+                [25.9240491,-109.207539589023],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_1a1bb932a6694e0d8dbc9f1ab9ebd4ec = L.popup({maxWidth: '300'});
+
+            
+                var html_1ea4569eb8434f68af1e146f9ec4f628 = $('<div id="html_1ea4569eb8434f68af1e146f9ec4f628" style="width: 100.0%; height: 100.0%;">Ahome, Cluster: 2, High Risk Factor Index</div>')[0];
+                popup_1a1bb932a6694e0d8dbc9f1ab9ebd4ec.setContent(html_1ea4569eb8434f68af1e146f9ec4f628);
+            
+
+            circle_marker_bc941966ff7f425fb236ab659a62f64f.bindPopup(popup_1a1bb932a6694e0d8dbc9f1ab9ebd4ec);
+
+            
+        
+    
+            var circle_marker_d15f77c875cf4454a98a60ea0c52d696 = L.circleMarker(
+                [24.7978965,-107.393395],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_e21f53e0c58243688ea5ac14ef817708 = L.popup({maxWidth: '300'});
+
+            
+                var html_dc5251c5f88242b1bdccb1b7b53b2163 = $('<div id="html_dc5251c5f88242b1bdccb1b7b53b2163" style="width: 100.0%; height: 100.0%;">Culiacán, Cluster: 2, High Risk Factor Index</div>')[0];
+                popup_e21f53e0c58243688ea5ac14ef817708.setContent(html_dc5251c5f88242b1bdccb1b7b53b2163);
+            
+
+            circle_marker_d15f77c875cf4454a98a60ea0c52d696.bindPopup(popup_e21f53e0c58243688ea5ac14ef817708);
+
+            
+        
+    
+            var circle_marker_b0d5dc0b732f4246beceb971391b9302 = L.circleMarker(
+                [23.2313053,-106.4153144],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_11ac47ccdea24e22860ce54abda9afb0 = L.popup({maxWidth: '300'});
+
+            
+                var html_3ba45ae870e945a0962d837669115686 = $('<div id="html_3ba45ae870e945a0962d837669115686" style="width: 100.0%; height: 100.0%;">Mazatlán, Cluster: 2, High Risk Factor Index</div>')[0];
+                popup_11ac47ccdea24e22860ce54abda9afb0.setContent(html_3ba45ae870e945a0962d837669115686);
+            
+
+            circle_marker_b0d5dc0b732f4246beceb971391b9302.bindPopup(popup_11ac47ccdea24e22860ce54abda9afb0);
+
+            
+        
+    
+            var circle_marker_1ed0148a5d6f4ed9afc4bf81d42a7b1b = L.circleMarker(
+                [27.71198065,-109.902207535928],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_93024871ab39401b80005bb4b4b58d62 = L.popup({maxWidth: '300'});
+
+            
+                var html_5933563ff4c54ccf86a580b47aac80e5 = $('<div id="html_5933563ff4c54ccf86a580b47aac80e5" style="width: 100.0%; height: 100.0%;">Cajeme, Cluster: 2, High Risk Factor Index</div>')[0];
+                popup_93024871ab39401b80005bb4b4b58d62.setContent(html_5933563ff4c54ccf86a580b47aac80e5);
+            
+
+            circle_marker_1ed0148a5d6f4ed9afc4bf81d42a7b1b.bindPopup(popup_93024871ab39401b80005bb4b4b58d62);
+
+            
+        
+    
+            var circle_marker_e5c58eae93d14495bd0acbcbbceac7f1 = L.circleMarker(
+                [29.0948207,-110.9692202],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_2152a62ee71f4952a261e32261ede57c = L.popup({maxWidth: '300'});
+
+            
+                var html_51ad3dd0f0374ea29f607db5552a589b = $('<div id="html_51ad3dd0f0374ea29f607db5552a589b" style="width: 100.0%; height: 100.0%;">Hermosillo, Cluster: 2, High Risk Factor Index</div>')[0];
+                popup_2152a62ee71f4952a261e32261ede57c.setContent(html_51ad3dd0f0374ea29f607db5552a589b);
+            
+
+            circle_marker_e5c58eae93d14495bd0acbcbbceac7f1.bindPopup(popup_2152a62ee71f4952a261e32261ede57c);
+
+            
+        
+    
+            var circle_marker_3dcc3281cf78474a864fee37e438af4a = L.circleMarker(
+                [28.3713765,-108.9248649],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_1587276ac175477bb66a06920352a215 = L.popup({maxWidth: '300'});
+
+            
+                var html_8ee2ece22a9b4d96b75fa68a978b70e7 = $('<div id="html_8ee2ece22a9b4d96b75fa68a978b70e7" style="width: 100.0%; height: 100.0%;">Nogales, Cluster: 2, High Risk Factor Index</div>')[0];
+                popup_1587276ac175477bb66a06920352a215.setContent(html_8ee2ece22a9b4d96b75fa68a978b70e7);
+            
+
+            circle_marker_3dcc3281cf78474a864fee37e438af4a.bindPopup(popup_1587276ac175477bb66a06920352a215);
+
+            
+        
+    
+            var circle_marker_8c182f27d64d4f85b257a5f5997fe29e = L.circleMarker(
+                [31.9939146,-114.290773141853],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_21bf29b531794664ba6c64c042c53828 = L.popup({maxWidth: '300'});
+
+            
+                var html_a8d3e457e26249e3b1caec87fafc1fbf = $('<div id="html_a8d3e457e26249e3b1caec87fafc1fbf" style="width: 100.0%; height: 100.0%;">San Luis Río Colorado, Cluster: 2, High Risk Factor Index</div>')[0];
+                popup_21bf29b531794664ba6c64c042c53828.setContent(html_a8d3e457e26249e3b1caec87fafc1fbf);
+            
+
+            circle_marker_8c182f27d64d4f85b257a5f5997fe29e.bindPopup(popup_21bf29b531794664ba6c64c042c53828);
+
+            
+        
+    
+            var circle_marker_e9e07c10549846a895c9089ba9ee52b8 = L.circleMarker(
+                [18.0271651,-92.7747767595362],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_d7fae3a74cb4499ebeacb21d427b99cf = L.popup({maxWidth: '300'});
+
+            
+                var html_b07079559be248428daa3073aa83db88 = $('<div id="html_b07079559be248428daa3073aa83db88" style="width: 100.0%; height: 100.0%;">Centro, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_d7fae3a74cb4499ebeacb21d427b99cf.setContent(html_b07079559be248428daa3073aa83db88);
+            
+
+            circle_marker_e9e07c10549846a895c9089ba9ee52b8.bindPopup(popup_d7fae3a74cb4499ebeacb21d427b99cf);
+
+            
+        
+    
+            var circle_marker_203d3d581d204ca990588b10795b6fc6 = L.circleMarker(
+                [22.2783046,-97.8242686088555],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_ac39eb7688b64732ba2003b3814f2efa = L.popup({maxWidth: '300'});
+
+            
+                var html_93f7af2c45d847749c8e2b428edafcef = $('<div id="html_93f7af2c45d847749c8e2b428edafcef" style="width: 100.0%; height: 100.0%;">Ciudad Madero, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_ac39eb7688b64732ba2003b3814f2efa.setContent(html_93f7af2c45d847749c8e2b428edafcef);
+            
+
+            circle_marker_203d3d581d204ca990588b10795b6fc6.bindPopup(popup_ac39eb7688b64732ba2003b3814f2efa);
+
+            
+        
+    
+            var circle_marker_ecbc64e675f649018d50f786c5ba7720 = L.circleMarker(
+                [25.8520977,-97.5017951],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_0f5ff822ffdb4b72b88870dd6b2af74f = L.popup({maxWidth: '300'});
+
+            
+                var html_a18db48b39a74ccc9f989567afc864dd = $('<div id="html_a18db48b39a74ccc9f989567afc864dd" style="width: 100.0%; height: 100.0%;">Matamoros, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_0f5ff822ffdb4b72b88870dd6b2af74f.setContent(html_a18db48b39a74ccc9f989567afc864dd);
+            
+
+            circle_marker_ecbc64e675f649018d50f786c5ba7720.bindPopup(popup_0f5ff822ffdb4b72b88870dd6b2af74f);
+
+            
+        
+    
+            var circle_marker_49d1b1abc02848e791f0f9cd47c37420 = L.circleMarker(
+                [27.4761506,-99.5185992],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_8978db9fb3df4b3f80b2a426abe495c0 = L.popup({maxWidth: '300'});
+
+            
+                var html_008fd01f54e44137baf67c9b490a6c4a = $('<div id="html_008fd01f54e44137baf67c9b490a6c4a" style="width: 100.0%; height: 100.0%;">Nuevo Laredo, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_8978db9fb3df4b3f80b2a426abe495c0.setContent(html_008fd01f54e44137baf67c9b490a6c4a);
+            
+
+            circle_marker_49d1b1abc02848e791f0f9cd47c37420.bindPopup(popup_8978db9fb3df4b3f80b2a426abe495c0);
+
+            
+        
+    
+            var circle_marker_90d75eb9bdc641468d185073074c3c00 = L.circleMarker(
+                [26.0704018,-98.2963932],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_39b930c8c79c4dd1be2141a8a82148a4 = L.popup({maxWidth: '300'});
+
+            
+                var html_5cec058eea384d178eecc019b1b4ea1a = $('<div id="html_5cec058eea384d178eecc019b1b4ea1a" style="width: 100.0%; height: 100.0%;">Reynosa, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_39b930c8c79c4dd1be2141a8a82148a4.setContent(html_5cec058eea384d178eecc019b1b4ea1a);
+            
+
+            circle_marker_90d75eb9bdc641468d185073074c3c00.bindPopup(popup_39b930c8c79c4dd1be2141a8a82148a4);
+
+            
+        
+    
+            var circle_marker_bad54a7ba6224e8ab9556960768b6a3d = L.circleMarker(
+                [22.2329889,-97.8614802],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_afef5d5d83ef4958b817543b4f9beea9 = L.popup({maxWidth: '300'});
+
+            
+                var html_30f2f4c3fbdd4a5aa335f77849c50bbd = $('<div id="html_30f2f4c3fbdd4a5aa335f77849c50bbd" style="width: 100.0%; height: 100.0%;">Tampico, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_afef5d5d83ef4958b817543b4f9beea9.setContent(html_30f2f4c3fbdd4a5aa335f77849c50bbd);
+            
+
+            circle_marker_bad54a7ba6224e8ab9556960768b6a3d.bindPopup(popup_afef5d5d83ef4958b817543b4f9beea9);
+
+            
+        
+    
+            var circle_marker_01eb6aa721a44e238a64cbd4e661c2ad = L.circleMarker(
+                [23.7389846,-99.1441352],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_36911c1f5e0a464e9a570e6e256171c6 = L.popup({maxWidth: '300'});
+
+            
+                var html_83e01449b0c44fb5aba9bd23437f4369 = $('<div id="html_83e01449b0c44fb5aba9bd23437f4369" style="width: 100.0%; height: 100.0%;">Victoria, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_36911c1f5e0a464e9a570e6e256171c6.setContent(html_83e01449b0c44fb5aba9bd23437f4369);
+            
+
+            circle_marker_01eb6aa721a44e238a64cbd4e661c2ad.bindPopup(popup_36911c1f5e0a464e9a570e6e256171c6);
+
+            
+        
+    
+            var circle_marker_b7837b156ad748b283dd81b1d6bdeab7 = L.circleMarker(
+                [18.1396787,-94.4501731],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_490d8dcdd37941b6b943a710fe4d8e94 = L.popup({maxWidth: '300'});
+
+            
+                var html_c2efd02d400e43e3b2d6cf276bf6e8e9 = $('<div id="html_c2efd02d400e43e3b2d6cf276bf6e8e9" style="width: 100.0%; height: 100.0%;">Coatzacoalcos, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_490d8dcdd37941b6b943a710fe4d8e94.setContent(html_c2efd02d400e43e3b2d6cf276bf6e8e9);
+            
+
+            circle_marker_b7837b156ad748b283dd81b1d6bdeab7.bindPopup(popup_490d8dcdd37941b6b943a710fe4d8e94);
+
+            
+        
+    
+            var circle_marker_f48d7f178072433786018d54b8509f53 = L.circleMarker(
+                [18.92397125,-96.9278108923454],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_f69d432d66ab4d3c85de27e789000b61 = L.popup({maxWidth: '300'});
+
+            
+                var html_e77deb33a6fa46f68e6beea4ea24684a = $('<div id="html_e77deb33a6fa46f68e6beea4ea24684a" style="width: 100.0%; height: 100.0%;">Córdoba, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_f69d432d66ab4d3c85de27e789000b61.setContent(html_e77deb33a6fa46f68e6beea4ea24684a);
+            
+
+            circle_marker_f48d7f178072433786018d54b8509f53.bindPopup(popup_f69d432d66ab4d3c85de27e789000b61);
+
+            
+        
+    
+            var circle_marker_94bffb7e11ba486fa1fdfb595d7a3ed4 = L.circleMarker(
+                [19.5408338,-96.9146374],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_ded02ea33b7a4ef891cf35300004ba04 = L.popup({maxWidth: '300'});
+
+            
+                var html_63261659bae145aa9af01cb9e88505d7 = $('<div id="html_63261659bae145aa9af01cb9e88505d7" style="width: 100.0%; height: 100.0%;">Xalapa, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_ded02ea33b7a4ef891cf35300004ba04.setContent(html_63261659bae145aa9af01cb9e88505d7);
+            
+
+            circle_marker_94bffb7e11ba486fa1fdfb595d7a3ed4.bindPopup(popup_ded02ea33b7a4ef891cf35300004ba04);
+
+            
+        
+    
+            var circle_marker_7b922b4d96de4e2f8d5a9fb28e6121d3 = L.circleMarker(
+                [18.849722,-97.103611],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_6df02b68ce574d5ca9103ef28cab0f63 = L.popup({maxWidth: '300'});
+
+            
+                var html_585ecd4561ee4ee59531385268eb97f4 = $('<div id="html_585ecd4561ee4ee59531385268eb97f4" style="width: 100.0%; height: 100.0%;">Orizaba, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_6df02b68ce574d5ca9103ef28cab0f63.setContent(html_585ecd4561ee4ee59531385268eb97f4);
+            
+
+            circle_marker_7b922b4d96de4e2f8d5a9fb28e6121d3.bindPopup(popup_6df02b68ce574d5ca9103ef28cab0f63);
+
+            
+        
+    
+            var circle_marker_a867e5db766040e599d9861519b68869 = L.circleMarker(
+                [20.53765745,-97.4451247998728],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_e2501bf14094467cac61012b8439be07 = L.popup({maxWidth: '300'});
+
+            
+                var html_7aaa7459e25344b187feff48d60de179 = $('<div id="html_7aaa7459e25344b187feff48d60de179" style="width: 100.0%; height: 100.0%;">Poza Rica de Hidalgo, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_e2501bf14094467cac61012b8439be07.setContent(html_7aaa7459e25344b187feff48d60de179);
+            
+
+            circle_marker_a867e5db766040e599d9861519b68869.bindPopup(popup_e2501bf14094467cac61012b8439be07);
+
+            
+        
+    
+            var circle_marker_fa67be253028485cb0d98f57625f091b = L.circleMarker(
+                [19.1798858,-96.135648],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_5f390f80341440dbb2d6910b19a329ff = L.popup({maxWidth: '300'});
+
+            
+                var html_c7af806854694ef3aaa9aed4ad32495f = $('<div id="html_c7af806854694ef3aaa9aed4ad32495f" style="width: 100.0%; height: 100.0%;">Veracruz, Cluster: 0, Medium Risk Factor Index</div>')[0];
+                popup_5f390f80341440dbb2d6910b19a329ff.setContent(html_c7af806854694ef3aaa9aed4ad32495f);
+            
+
+            circle_marker_fa67be253028485cb0d98f57625f091b.bindPopup(popup_5f390f80341440dbb2d6910b19a329ff);
+
+            
+        
+    
+            var circle_marker_5e9dc1155aed442d89c3f02d4a517c8c = L.circleMarker(
+                [20.9670759,-89.6237402],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_e92a4ae8793146698a92a0ff95fea045 = L.popup({maxWidth: '300'});
+
+            
+                var html_9353b4d40b5b4c16bceff9bbf5bfcecd = $('<div id="html_9353b4d40b5b4c16bceff9bbf5bfcecd" style="width: 100.0%; height: 100.0%;">Mérida, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_e92a4ae8793146698a92a0ff95fea045.setContent(html_9353b4d40b5b4c16bceff9bbf5bfcecd);
+            
+
+            circle_marker_5e9dc1155aed442d89c3f02d4a517c8c.bindPopup(popup_e92a4ae8793146698a92a0ff95fea045);
+
+            
+        
+    
+            var circle_marker_c04b544c169343ce9f034bd6e266f50a = L.circleMarker(
+                [23.2249237,-103.016289071469],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_7de6cd71629d4f4f8361b9f13eeb4822 = L.popup({maxWidth: '300'});
+
+            
+                var html_ece4ceff81d040b1af53270f090ccc3b = $('<div id="html_ece4ceff81d040b1af53270f090ccc3b" style="width: 100.0%; height: 100.0%;">Fresnillo, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_7de6cd71629d4f4f8361b9f13eeb4822.setContent(html_ece4ceff81d040b1af53270f090ccc3b);
+            
+
+            circle_marker_c04b544c169343ce9f034bd6e266f50a.bindPopup(popup_7de6cd71629d4f4f8361b9f13eeb4822);
+
+            
+        
+    
+            var circle_marker_4e6eb6ce45cf4c22b10ddef5d6b479b4 = L.circleMarker(
+                [22.78238425,-102.45050578564],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_7b6dc102d68b4236a0fde459ac894778 = L.popup({maxWidth: '300'});
+
+            
+                var html_5dd8044c07cd446bb573b766dfe4380e = $('<div id="html_5dd8044c07cd446bb573b766dfe4380e" style="width: 100.0%; height: 100.0%;">Guadalupe, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_7b6dc102d68b4236a0fde459ac894778.setContent(html_5dd8044c07cd446bb573b766dfe4380e);
+            
+
+            circle_marker_4e6eb6ce45cf4c22b10ddef5d6b479b4.bindPopup(popup_7b6dc102d68b4236a0fde459ac894778);
+
+            
+        
+    
+            var circle_marker_f43eb4f5c1cf4b7eaf756506102df8f9 = L.circleMarker(
+                [22.7753891,-102.5722706],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b7261a9e590e49779392da3292bdb78c);
+            
+    
+            var popup_8a4b846cf7a6412e8e106a66088461a7 = L.popup({maxWidth: '300'});
+
+            
+                var html_9a88d39ecce943bdaf7431ecf7089593 = $('<div id="html_9a88d39ecce943bdaf7431ecf7089593" style="width: 100.0%; height: 100.0%;">Zacatecas, Cluster: 1, Low Risk Factor Index</div>')[0];
+                popup_8a4b846cf7a6412e8e106a66088461a7.setContent(html_9a88d39ecce943bdaf7431ecf7089593);
+            
+
+            circle_marker_f43eb4f5c1cf4b7eaf756506102df8f9.bindPopup(popup_8a4b846cf7a6412e8e106a66088461a7);
+
+            
+        
+</script>
